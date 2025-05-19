@@ -10,29 +10,14 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-   int a1;
-   int a2;
-   int a3;
-   int sum;
-   
-   printf("enter angle1: ");
-   scanf("%d",&a1);
-   
-   printf("enter angle2: ");
-   scanf("%d",&a2);
-   
-   printf("enter angle3:  ");
-   scanf("%d",&a3);
-   
-   sum = a1 + a2+ a3;
-   
-   if(sum == 180){
-       printf("then triangle can be formed");
+   int age=18;
+   if(age>=18){
+       printf("eligible");
+
    }
-       else{
-           printf("then triangle cannot be formed");
-       }
-   
+   else{
+       printf("not eligible");
+   }
 
     return 0;
 }
