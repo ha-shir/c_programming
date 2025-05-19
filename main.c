@@ -10,35 +10,29 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-    int a=8;
-    int b=6;
-    char operator='8';
+   int a1;
+   int a2;
+   int a3;
+   int sum;
    
-    switch(operator){
-        case '+':
-        printf ( "%d", a+b );
-        break;
-        case '-':
-        printf (" %d", a-b );
-        break;
-        case '*':
-        printf ("%d", a*b );
-        break;
-        case '/':
-        printf ("%d", a/b );
-        break;
-        case '%':
-        printf ("%d" , a%b);
-        break;
-        default:
-        printf ("invalid operation");
-        
-        
-        
-        
-        
-        
-    }
+   printf("enter angle1: ");
+   scanf("%d",&a1);
    
+   printf("enter angle2: ");
+   scanf("%d",&a2);
+   
+   printf("enter angle3:  ");
+   scanf("%d",&a3);
+   
+   sum = a1 + a2+ a3;
+   
+   if(sum == 180){
+       printf("then triangle can be formed");
+   }
+       else{
+           printf("then triangle cannot be formed");
+       }
+   
+
     return 0;
 }
