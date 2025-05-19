@@ -10,14 +10,13 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-   int age=18;
-   if(age>=18){
-       printf("eligible");
-
-   }
-   else{
-       printf("not eligible");
-   }
-
+    int i=0;
+    while(i<=50){
+    i++;
+    if(i%2==0)
+    {
+    printf("%d\n",i);
+}
+}
     return 0;
 }
