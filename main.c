@@ -10,13 +10,17 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-  int year=2028;
-  if(year%4==0 && year%100!=0 || year%400==0){
-      printf("leap year");
-  }
-       else{
-           printf("not leap yeat");
-       
-  }
-  return 0;
+    int l,b,area,peri;
+    printf("enter the number");
+    scanf("%d",&l);
+    printf("enter the number");
+    scanf("%d",&b);
+    area=l*b;
+    printf("area is %d\n", area);
+    peri=2*l+b;
+    printf("peri is  %d", peri);
+    
+    
+
+    return 0;
 }
