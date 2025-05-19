@@ -10,17 +10,35 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-    int l,b,area,peri;
-    printf("enter the number");
-    scanf("%d",&l);
-    printf("enter the number");
-    scanf("%d",&b);
-    area=l*b;
-    printf("area is %d\n", area);
-    peri=2*l+b;
-    printf("peri is  %d", peri);
-    
-    
-
+    int a=8;
+    int b=6;
+    char operator='8';
+   
+    switch(operator){
+        case '+':
+        printf ( "%d", a+b );
+        break;
+        case '-':
+        printf (" %d", a-b );
+        break;
+        case '*':
+        printf ("%d", a*b );
+        break;
+        case '/':
+        printf ("%d", a/b );
+        break;
+        case '%':
+        printf ("%d" , a%b);
+        break;
+        default:
+        printf ("invalid operation");
+        
+        
+        
+        
+        
+        
+    }
+   
     return 0;
 }
