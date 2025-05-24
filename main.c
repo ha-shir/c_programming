@@ -10,22 +10,11 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-    int a=0;
-    int b=1;
-    int fib, i,limit;
+ int i;
+ 
+ for(i=0;i<=5;i++){
+ printf("%d\n", i );
+}
     
-    printf("enter a number: ");
-    scanf("%d",&limit);
-    
-    for(i=0;i<=limit;i++){
-        fib= a+b;
-        a=b;
-        b=fib;
-        printf("%d",fib);
-        
-    }
-    
-    
-
     return 0;
 }
