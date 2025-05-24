@@ -10,15 +10,18 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-    int l,b,area,peri;
-    printf("enter the number");
-    scanf("%d",&l);
-    printf("enter the number");
-    scanf("%d",&b);
-    area=l*b;
-    printf("area is %d\n", area);
-    peri=2*l+b;
-    printf("peri is  %d", peri);
+    int i;
+    int fact=1;
+    int num1;
+     printf("enter a number: ");
+     scanf("%d",&num1);
+    
+    
+    for(i=1;i<=num1;i++){
+        fact=fact*i;
+    }
+    printf("%d",fact);
+    
     
     
 
