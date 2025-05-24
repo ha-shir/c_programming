@@ -10,16 +10,17 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-     int num1=;
-     if(num1>0){
-         printf("number is positive");
-         
-     }
-      else{
-          printf("number is negative");
-      }
- 
-     
+    int l,b,area,peri;
+    printf("enter the number");
+    scanf("%d",&l);
+    printf("enter the number");
+    scanf("%d",&b);
+    area=l*b;
+    printf("area is %d\n", area);
+    peri=2*l+b;
+    printf("peri is  %d", peri);
+    
+    
 
     return 0;
 }
