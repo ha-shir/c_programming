@@ -10,18 +10,20 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-    int i;
-    int fact=1;
-    int num1;
-     printf("enter a number: ");
-     scanf("%d",&num1);
+    int a=0;
+    int b=1;
+    int fib, i,limit;
     
+    printf("enter a number: ");
+    scanf("%d",&limit);
     
-    for(i=1;i<=num1;i++){
-        fact=fact*i;
+    for(i=0;i<=limit;i++){
+        fib= a+b;
+        a=b;
+        b=fib;
+        printf("%d",fib);
+        
     }
-    printf("%d",fact);
-    
     
     
 
